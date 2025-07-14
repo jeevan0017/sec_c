@@ -19,5 +19,15 @@ int main()
 	scanf("%d %d",&a,&b);
 	diff=a-b;
 	printf("diff= %d\n",diff);
+
+
+	int a,int b,temp;
+	printf("Enter two num:");
+	scan("%d %d",&a,&b);
+	temp=a;
+	a=b;
+	b=temp;
+	printf("After swap: a=%d,b=%d\n",a,b);
+
 	return 0;
 }	

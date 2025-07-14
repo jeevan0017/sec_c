@@ -12,6 +12,12 @@ int main()
 	else
 	{
 		print("it's odd")
-	}	
+	}
+
+	int a,b diff;
+	printf("enter two num:");
+	scanf("%d %d",&a,&b);
+	diff=a-b;
+	printf("diff= %d\n",diff);
 	return 0;
 }	
